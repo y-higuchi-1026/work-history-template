@@ -1,0 +1,48 @@
+/*
+  基準となるCSSは、以下参照。
+  https://github.com/yzane/vscode-markdown-pdf/tree/master/styles
+*/
+
+/* markdown.css による font-family 指定を上書きする。 */
+body {
+  font-family: "Meiryo UI", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+th {
+  background: #0066cc;
+  color: #ffffff;
+}
+
+img {
+  border: 1px solid #000;
+}
+
+/* markdown.css による font-family 指定を上書きする。 */
+code {
+  font-family: "IPAGothic", monospace;
+}
+
+code:not(:has(*)) {
+  background-color: #dbeafe;
+  padding: 3px 5px;
+  border-radius: 10px;
+  color: blue !important;
+}
