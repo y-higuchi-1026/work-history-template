@@ -46,3 +46,15 @@ code:not(:has(*)) {
   border-radius: 10px;
   color: blue !important;
 }
+
+h2 {
+  color: darkgreen;
+}
+
+h3 {
+  color: slateblue;
+}
+
+h4 {
+  color: darkblue;
+}
