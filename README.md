@@ -17,10 +17,11 @@
 
 1. 作成したリポジトリを clone する
 2. VSCode 等で clone した本リポジトリのディレクトリを開く
-3. 本リポジトリで推奨している下記3つの VSCode 拡張機能をインストールする (ディレクトリを開いた際にインストールの案内が出る)
+3. 本リポジトリで推奨している下記4つの VSCode 拡張機能をインストールする (ディレクトリを開いた際にインストールの案内が出る)
    1. [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
    2. [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
    3. [Markdown Table](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable)
+   4. [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 4. `template.md` が職務経歴書のテンプレートファイルであるため、これをコピーして職務経歴書を作成する
 
 ## PDF 変換手順
@@ -28,6 +29,10 @@
 1. VSCode 上で変換対象の Markdown ファイルを開く
 2. Markdown テキスト上で右クリックし、`Markdown PDF: Export (pdf)` を選択
 3. 変換対象の Markdown ファイルと同名の PDF ファイルが出力される
+
+## PDF の閲覧
+
+[vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) の拡張機能により、VSCode 等のツリー上で PDF ファイルを選択するだけで閲覧が可能となっている。
 
 ## PDF のスタイリング
 

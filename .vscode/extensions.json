@@ -2,9 +2,10 @@
   "recommendations": [
     "yzhang.markdown-all-in-one",
     "yzane.markdown-pdf",
-    "TakumiI.markdowntable"
+    "TakumiI.markdowntable",
+    "tomoki1207.pdf"
   ],
   "unwantedRecommendations": [
-    
+
   ]
 }
